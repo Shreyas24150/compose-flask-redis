@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    depends_on:
+      - redis  # Waits for Redis to be ready
+
+  redis:
+    image: redis:alpine  # Use lightweight Redis image
