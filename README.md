@@ -1,4 +1,5 @@
 **🚀 Flask + Redis App with Docker Compose**
+
 This repository provides a minimal Flask application that tracks how many times a specific route is requested. The app uses Redis to persist the count and is deployed inside a fully containerized environment with Docker Compose.
 
 **📦 Stack**
